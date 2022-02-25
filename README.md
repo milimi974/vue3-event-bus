@@ -1,6 +1,7 @@
 # vue3-event-bus
-# Exemple of use  
+## Exemple of use  
 
+```js
 import {EventBus} from '{..path-to}/EventBus';  
 export default {  
   setup() {
@@ -10,8 +11,8 @@ export default {
     });  
   },  
 };  
-
-
+```
+```js
 import {EventBus} from '{..path-to}/EventBus';  
 export default {  
    methods:{
@@ -21,3 +22,4 @@ export default {
     }
   },  
 }; 
+```
