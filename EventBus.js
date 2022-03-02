@@ -25,7 +25,7 @@ class Event{
     }
 
     $off(name){
-        this.#EVENTS[name] = [];
+        delete this.#EVENTS[name];
     }
 }
 
