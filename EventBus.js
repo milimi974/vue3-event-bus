@@ -12,8 +12,9 @@ class Event{
     $emit(name, ...args){
         if(this.#EVENTS[name] === undefined)
             return;
-        for(const callback of this.#EVENTS[name])
+        for(const callback of this.#EVENTS[name]){
             callback(...args);
+        }
     }
 
     $on(name, callback){
