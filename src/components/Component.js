@@ -26,7 +26,7 @@ export default {
     },
     action: String,
   },
-  setup() {
+  setup(props) {
       EventBus.$on('empty-event', (value) => {
           /* data => ctx.data; methods => ctx.methods */
       });
